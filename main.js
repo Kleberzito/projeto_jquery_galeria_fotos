@@ -1,4 +1,13 @@
 $(document).ready(function () {
-    console.log(document.getElementById('newImageButton'));
-    console.log(document.getElementById('cancelButton'));
+    $("#newImageButton").click(function () {
+        $("form").slideDown();
+    })
+
+    $("#cancelButton").click(function () {
+        $("form").slideUp();
+    })
+
+    $("form").on("submit", function (event) {
+        event.preventDefault();
+    });
 });
