@@ -74,6 +74,7 @@ ul li:hover .overlay-imagem-link {
 
 ul img {
     max-width: 100%;
+    max-height: 240px;
 }
 
 .overlay-imagem-link {
