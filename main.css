@@ -51,7 +51,7 @@ form input, form button {
     cursor: pointer;
 }
 
-#cancelButton {
+.cancelButton {
     background-color: #fc5974;
     color: #fff;
 }
@@ -90,4 +90,16 @@ ul img {
 .overlay-imagem-link a {
     color: #fff;
     text-decoration: none;
+}
+
+.remove-button { 
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #fc5974; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer;
+    border-radius: 5px;
 }
